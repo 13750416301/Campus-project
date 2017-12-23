@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>直播页面</title>
+        <link type="text/css" rel="stylesheet" href="http://a.msstatic.com/huya/main/pkg/pages_modules_20bc326.css">
+        <link type="text/css" rel="stylesheet" href="http://a.msstatic.com/huya/main/pkg/auto_combine_6f5f9_8411462.css">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="side inline">
+                <div class="sidenav">
+                    <a href="#">
+                        <img src="images/favor-icon.PNG" width="60px" height="60px">我的收藏
+                    </a>
+                    <a href="#">
+                        <img src="images/trace.png" width="60px" height="60px">我的足迹</a>
+                    <a href="#">
+                        <img src="images/download-icon.png" width="60px" height="60px">下载</a>
+                </div>
+                <div class="side-hide"></div>
+                <div class="click-button"></div>
+                
+            </div>
+    
+            <div class="live-main inline">
+                <div class="msg-title">
+                    <img src="images/mainHead.png">
+                    <div class="detail">
+                        <div class="room-name">XXX活动</div>
+                        <div class="class">活动 > 英雄联盟比赛</div>
+                        <div class="till-msg">
+                            <img src="images/time.png">
+                            <span>已播80分钟</span>
+                        </div>
+                        <div class="num">
+                            <img src="images/num.png">
+                        </div>
+                    </div>
+                    <div class="msg-btn">
+                        <button href="#" type="button" id="video"></button>
+                        <button href="#" type="button" id="sub"></button>
+                    </div>
+                    
+                </div>
+                <div class="live-field">
+                    <video id="player" width="1145px" height="475px">
+                        <source src="http://www.w3school.com.cn/example/html5/mov_bbb.mp4" type="video/mp4">
+                            Your browser does not support HTML5 video
+                    </video>
+                    <div class="ctrl-field">
+                        <div class="play-btn-field">
+                            <div class="play-btn" id="play-btn" title="继续观看"></div> 
+                            <div class="pause-btn" id="pause-btn" title="暂停观看"></div>
+                        </div>
+                        <div class="reload-play" id="reload" title="重新播放"></div>                    
+                        <div class="report" id="report" title="问题反馈"></div>
+                        <div class="volume" id="volume" title="静音"></div>
+                        <div class="volume2" id="volume2" title="不静音"></div>
+                        <div class="volume-ctrl" title="音量控制"></div>
+                        <div class="setting" title="设置"></div>
+                        <div class="web-whole" title="网页全屏"></div>
+                        <div class="whole" id="whole" title="全屏"></div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="discuss-area inline">
+                <button type="button">学生留言区</button>
+                <button type="button">老师心得</button>
+                <div class="area">
+                    <div class="dialog-id">
+                        <img src="images/head.png">
+                        <a href="#">吴正尧</a>
+                    </div>
+                    <div class="dialog-msg" id="msg">
+                        作业提交时间。。。
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+        <script src="js/main.js"></script>
+    </body>
+
+</html>

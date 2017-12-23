@@ -1,0 +1,337 @@
+body {
+
+
+    top: 0;
+    left: 0;
+    font-family: "SimSun", sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+.side {
+
+    box-sizing: border-box;
+    margin-top: 80px;
+    height: 690px;
+    width: 305px;
+    overflow: hidden;
+
+}
+
+
+.sidenav {
+    
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 90px;
+    padding-left: 20px;
+    
+    
+    height: 690px;
+    width: 290px;
+}
+
+.inline {
+    top: 0;
+    left: 0;
+    float: left;
+    vertical-align: top;
+    
+}
+
+.sidenav a {
+    
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 80px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #8f8f8e;
+    display: block;
+}
+
+
+
+.sidenav a:hover {
+    color: #ff8800;
+}
+
+.click-button {
+    background: url("../images/click-button.png");
+    float: left;
+    height: 145px;
+    width: 15px;
+    margin-top: 300px;
+    overflow-x: hidden;
+}
+.sidenav, .click-button {
+    float: left;
+}
+
+.live-main {
+    margin-top: 80px;
+    margin-left: 10px;
+    width: 1145px;
+    height: 690px;
+    background-color: #000;
+    
+    overflow: hidden;
+    
+}
+
+video:-webkit-full-screen {
+    width: 100%;
+    height: 100%;
+}
+
+.msg-title {
+    font-family: "Microsoft YaHei", sans-serif;
+    width: 1145px;
+    height: 125px;
+    background-color: #fff;
+    border: 1.5px solid #000;
+    border-radius: 10px;
+    padding-left: 2px;
+    padding-top: 4px;
+}
+
+.msg-title img, .msg-title .detail {
+    float: left;
+}
+
+.msg-title .detail {
+    padding-left: 18px;
+}
+
+.msg-title .room-name {
+    font-size: 22.11px;
+    font-weight: bold;
+
+}
+
+.msg-title .class {
+    font-size: 17.37px;
+}
+
+.msg-title .class:hover {
+    color: #ff8a19;
+}
+
+.msg-title .till-msg {
+    margin-top: 15px;
+}
+.msg-title .till-msg, .num {
+    float: left;
+    
+}
+
+.msg-title .till-msg span {
+    font-size: 18px;
+    color: #b0adad;
+}
+
+.num {
+    padding-left: 55px;
+    margin-top: 10px;
+}
+
+.msg-btn {
+    margin-left: 790px;
+}
+
+#video {
+    background: url("../images/ones-video.png");
+    width: 130px;
+    height: 47px;
+    border: none;
+    cursor: pointer;
+}
+
+
+#sub {
+    background: url("../images/sub.png");
+    width: 178px;
+    height: 47px;
+    border: none;
+    cursor: pointer;
+}
+
+.live-field {
+    width: 1145px;
+    height: 565px;
+    overflow: hidden;
+}
+
+.live-field .ctrl-field {
+    height: 90px;
+    background-color: #23272b;
+    padding-top: 28px;
+    padding-left: 20px;
+}
+
+.play-btn-field {
+    width: 35px;
+    height: 35px;
+}
+
+
+.play-btn {
+	width: 0;
+	height: 0;
+	border-top: 15.5px solid transparent;
+	border-left: 31px solid #909090;
+    border-bottom: 15.5px solid transparent;
+    cursor: pointer;
+}
+
+.play-btn:hover {
+    border-left: 31px solid #ff8a19;
+}
+
+.pause-btn {
+    
+    width: 31px;
+    height: 31px;
+    background-color: transparent;
+    border-left: 11px solid #909090;
+    border-right: 11px solid #909090;
+    display: none;
+}
+
+.pause-btn:hover {
+    border-left: 11px solid #ff8a19;
+    border-right: 11px solid #ff8a19;
+}
+
+.play-btn-field, #reload, .report, .volume, .volume2, .volume-ctrl, .setting, .web-whole, .whole {
+    float: left;
+}
+
+#reload {
+    margin-left: 15px;
+    width: 35px;
+    height: 35px;
+    background: url("../images/reload.png");
+    cursor: pointer;
+}
+
+.report {
+    width: 35px;
+    height: 35px;
+    margin-left: 596px;
+    background: url("../images/report.png");
+    cursor: pointer;
+}
+
+.volume {
+    width: 43px;
+    height: 43px;
+    margin-left: 14px;
+    background: url("../images/volume.png");
+    cursor: pointer;
+}
+
+.volume2 {
+    display: none;
+    width: 43px;
+    height: 43px;
+    margin-left: 14px;
+    background: url("../images/mute.png");
+    cursor: pointer;
+}
+
+.volume-ctrl {
+    margin-left: 8px;
+    height: 35px;
+    width: 157px;
+    cursor: pointer;
+    background: url("../images/volume-ctrl.png");
+    cursor: pointer;
+}
+
+.setting {
+    margin-left: 57px;
+    width: 30px;
+    height: 30px;
+    background: url("../images/setting.png");
+    cursor: pointer;
+}
+
+.web-whole {
+    margin-left: 20px;
+    width: 29px;
+    height: 27px;
+    background: url("../images/web-whole.png");
+    cursor: pointer;
+}
+.whole {
+    margin-left: 10px;
+    width: 26px;
+    height: 26px;
+    background: url("../images/whole.png");
+    cursor: pointer;
+}
+
+.discuss-area {
+    border-radius: 10px;
+    border: 1.5px solid #000; 
+    margin-top: 80px;
+    margin-left: 18px;
+    width: 363px;
+    height: 730px;
+    background-color: #fff;;
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei", sans-serif;
+    
+    
+}
+
+.discuss-area button {
+    width: 177px;
+    height: 29px;
+    font-size: 18px;
+    border: 1.5px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    
+}
+
+.discuss-area button:hover {
+    color: #ff8a19;
+}
+
+.area {
+    width: 363px;
+    height: 700px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+
+}
+
+.dialog-id {
+    padding-left: 20px;
+    padding-top: 15px;
+    font-size: 18px;
+    
+}
+
+.dialog-id a {
+    font-size: 18px;
+    color: #108ede;
+}
+
+.dialog-msg {
+    padding-left: 65px;
+    font-size: 18px;
+}
